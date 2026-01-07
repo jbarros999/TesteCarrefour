@@ -90,7 +90,15 @@ Tolerância a falhas
 -   Infra: Docker / Docker Compose
 
 ------------------------------------------------------------------------
+## Decisões Arquiteturais (ADRs)
 
+As principais decisões de arquitetura do sistema estão documentadas nos Architecture Decision Records:
+
+- [ADR-001 – Adoção de Arquitetura Orientada a Eventos](docs/ADR/ADR-0001-Arquitetura-Orientada-a-Eventos.md)
+- [ADR-002 – Separação entre banco transacional e banco de consolidação](docs/ADR/ADR-002-Separacao-de-bancos.md)
+- [ADR-003 – Escolha da plataforma de mensageria](docs/ADR/ADR-003-Mensageria.md)
+
+------------------------------------------------------------------------
 ## Execução Local
 
 docker-compose up -d
