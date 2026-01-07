@@ -77,26 +77,7 @@ Tolerância a falhas
 ------------------------------------------------------------------------
 
 ## Arquitetura Alvo
-
-[ Cliente / Frontend ]\
-          |\
-      API Gateway\
-          |\
- ┌────────────────────────┐\
- │ Serviço de Lançamentos │\
- │ - API REST             │\
- │ - Banco Transacional   │\
- │ - Emissão de Eventos   │\
- └────────────┬───────────┘\
-              │\
-     Mensageria (Kafka / RabbitMQ)\
-             │\
- ┌─────────────────────────────┐\
- │ Serviço de Consolidação     │\
- │ - Consumer assíncrono       │\
- │ - Banco analítico           │\
- │ - API de relatórios         │\
- └─────────────────────────────┘\
+![Arquitetura](docs/IMG/Arquitetura.png)
 
 ------------------------------------------------------------------------
 
