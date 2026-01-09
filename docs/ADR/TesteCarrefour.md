@@ -15,10 +15,10 @@ disponibilidade e segurança.
 
 ## Objetivos da Solução
 
--   Garantir alta disponibilidade do serviço de lançamentos
--   Permitir geração de relatório diário consolidado
--   Garantir que falhas no consolidado não impactem os lançamentos
--   Projetar solução escalável, resiliente e evolutiva
+- Garantir alta disponibilidade do serviço de lançamentos
+- Permitir geração de relatório diário consolidado
+- Garantir que falhas no consolidado não impactem os lançamentos
+- Projetar solução escalável, resiliente e evolutiva
 
 ------------------------------------------------------------------------
 
@@ -29,10 +29,10 @@ garantindo desacoplamento entre domínios e tolerância a falhas.
 
 ### Estilo Arquitetural
 
--   Microsserviços
--   Event-driven
--   APIs REST
--   Comunicação assíncrona
+- Microsserviços
+- Event-driven
+- APIs REST
+- Comunicação assíncrona
 
 ------------------------------------------------------------------------
 
