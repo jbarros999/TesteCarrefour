@@ -105,6 +105,61 @@ docker-compose up -d
 
 ------------------------------------------------------------------------
 
+## Estimativa de Custos de Infraestrutura
+
+A seguir, uma estimativa aproximada de custos mensais considerando implantação em ambiente cloud (AWS ou Azure), com carga baixa a moderada e ambiente produtivo simplificado. Os valores variam por região e contrato, sendo apresentados apenas como referência arquitetural.
+
+### Componentes considerados
+
+- 2 serviços Web API (.NET)
+  - Lancamentos.Api
+  - Consolidado.Api
+- Serviço de mensageria
+- Banco de dados operacional para lançamentos
+- Banco de leitura para consolidação
+- Monitoramento e logs básicos
+
+### Estimativa aproximada (mensal)
+
+| Componente                                          | Opção sugerida  | Custo aproximado |
+|-----------------------------------------------------|----------------------------------------|-----------|
+| Hospedagem APIs                                     | 2 x containers (B1s / F1)              | USD 20–40 |
+| Banco relacional lançamentos                        | Azure SQL Basic / RDS t4g.micro        | USD 25–40 |
+| Banco leitura consolidação                          | Azure SQL Basic / RDS t4g.micro        | USD 25–40 |
+| Mensageria                                          | Azure Service Bus Basic / SQS Standard | USD 5–15  |
+| Armazenamento de logs                               | Application Insights / CloudWatch      | USD 10–25 |
+| Monitoramento e métricas                            | incluído parcial / +USD 10             | USD 0–10  |
+| Trafego / egress                                    | baixo volume                           | USD 5–15  |
+|-----------------------------------------------------|----------------------------------------|-----------|
+
+**Total estimado:** entre **USD 90 e USD 180 por mês**
+
+### Observações de otimização
+
+- ambientes de desenvolvimento podem usar **in-memory** ou SQLite com custo zero
+- em produção é recomendado:
+  - storage redundante
+  - backup automático
+  - zona de disponibilidade
+- autoscaling só é ativado em picos, impactando custo variável
+- uso de containers reduz custo versus VMs
+
+### Possíveis reduções
+
+- Serverless (Azure Functions / AWS Lambda) para consolidação diária
+- banco único particionado por domínio (não recomendado, mas possível)
+- desligamento automático fora de horário comercial
+- logs com retenção menor
+
+### Possível aumento de custo
+
+- alta disponibilidade multi-zona
+- mensageria com garantia forte (Premium / FIFO)
+- criptografia gerenciada por HSM
+- auditoria avançada e SIEM
+
+------------------------------------------------------------------------
+
 ## Considerações Finais
 
 Projeto focado em clareza arquitetural e boas práticas, priorizando
