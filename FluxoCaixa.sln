@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lancamentos.Api", "FluxoCaixa\Lancamentos.Api.csproj", "{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consolidado.Api", "Consolidado.Api\Consolidado.Api.csproj", "{25B5D79A-7D46-4D9E-915D-3F8CA7C07EB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B5D79A-7D46-4D9E-915D-3F8CA7C07EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B5D79A-7D46-4D9E-915D-3F8CA7C07EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B5D79A-7D46-4D9E-915D-3F8CA7C07EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B5D79A-7D46-4D9E-915D-3F8CA7C07EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F27646FE-BA0A-49CC-88D3-88D41B7F2CD7}
+	EndGlobalSection
+EndGlobal
