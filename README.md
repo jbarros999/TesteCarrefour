@@ -34,7 +34,7 @@ garantindo desacoplamento entre domínios e tolerância a falhas.
 - APIs REST
 - Comunicação assíncrona
 
-![Arquitetura da Solução](docs/IMG/Arquitetura.png)
+
 
 ------------------------------------------------------------------------
 
@@ -79,27 +79,7 @@ Tolerância a falhas
 ------------------------------------------------------------------------
 
 ## Arquitetura Alvo
-
-[ Cliente / Frontend ]\
-          |\
-      API Gateway\
-          |\
- ┌────────────────────────┐\
- │ Serviço de Lançamentos │\
- │ - API REST             │\
- │ - Banco Transacional   │\
- │ - Emissão de Eventos   │\
- └────────────┬───────────┘\
-              │\
-     Mensageria (Kafka / RabbitMQ)\
-             │\
- ┌─────────────────────────────┐\
- │ Serviço de Consolidação     │\
- │ - Consumer assíncrono       │\
- │ - Banco analítico           │\
- │ - API de relatórios         │\
- └─────────────────────────────┘\
-
+![Arquitetura da Solução](docs/IMG/Arquitetura.png)
 ------------------------------------------------------------------------
 
 ## Tecnologias
@@ -122,6 +102,14 @@ docker-compose up -d
 
 Projeto focado em clareza arquitetural e boas práticas, priorizando
 decisões conscientes em detrimento de implementação completa.
+
+## Arquivos de Decisão de Arquitetura (ADR)
+
+- [ADR-0001 - Arquitetura Orientada a Eventos](docs/ADR/ADR-0001-Arquitetura-Orientada-a-Eventos.md)
+- [ADR-002 - Separação de Bancos](docs/ADR/ADR-002-Separacao-de-bancos.md)
+- [ADR-003 - Mensageria](docs/ADR/ADR-003-Mensageria.md)
+- [Arquitetura Alvo](docs/ADR/Arquitetura-Alvo.md)
+- [Teste Carrefour](docs/ADR/TesteCarrefour.md)
 
 ------------------------------------------------------------------------
 
