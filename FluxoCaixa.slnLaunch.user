@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FluxoCaixa\\Lancamentos.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Consolidado.Api\\Consolidado.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

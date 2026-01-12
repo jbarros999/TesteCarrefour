@@ -1,0 +1,74 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Lancamentos.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/lancamentos": {
+      "post": {
+        "tags": [
+          "Lancamentos.Api"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CriarLancamentoRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Lancamentos.Api"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CriarLancamentoRequest": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipo": {
+            "$ref": "#/components/schemas/TipoLancamento"
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TipoLancamento": {
+        "enum": [
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    }
+  }
+}

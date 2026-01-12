@@ -1,0 +1,83 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Consolidado.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/eventos/lancamento-registrado": {
+      "post": {
+        "tags": [
+          "Consolidado.Api"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LancamentoRegistradoEvent"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/consolidado/{data}": {
+      "get": {
+        "tags": [
+          "Consolidado.Api"
+        ],
+        "parameters": [
+          {
+            "name": "data",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "LancamentoRegistradoEvent": {
+        "type": "object",
+        "properties": {
+          "eventId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "lancamentoId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
