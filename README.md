@@ -34,6 +34,8 @@ garantindo desacoplamento entre domínios e tolerância a falhas.
 - APIs REST
 - Comunicação assíncrona
 
+![Arquitetura da Solução](docs/IMG/Arquitetura.png)
+
 ------------------------------------------------------------------------
 
 ## Domínios e Capacidades
