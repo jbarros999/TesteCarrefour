@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Projetos\\FluxoCaixa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}|FluxoCaixa\\Lancamentos.Api.csproj|c:\\projetos\\fluxocaixa\\fluxocaixa\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}|FluxoCaixa\\Lancamentos.Api.csproj|solutionrelative:fluxocaixa\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25B5D79A-7D46-4D9E-915D-3F8CA7C07EB4}|Consolidado.Api\\Consolidado.Api.csproj|c:\\projetos\\fluxocaixa\\consolidado.api\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{25B5D79A-7D46-4D9E-915D-3F8CA7C07EB4}|Consolidado.Api\\Consolidado.Api.csproj|solutionrelative:consolidado.api\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}|FluxoCaixa\\Lancamentos.Api.csproj|c:\\projetos\\fluxocaixa\\fluxocaixa\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A454E54D-F5CF-4ACF-BAE6-E5AC92425794}|FluxoCaixa\\Lancamentos.Api.csproj|solutionrelative:fluxocaixa\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25B5D79A-7D46-4D9E-915D-3F8CA7C07EB4}|Consolidado.Api\\Consolidado.Api.csproj|c:\\projetos\\fluxocaixa\\consolidado.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,31 +105,27 @@
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "readme.md",
               "DocumentMoniker": "C:\\Projetos\\FluxoCaixa\\Consolidado.Api\\readme.md",
               "RelativeDocumentMoniker": "Consolidado.Api\\readme.md",
               "ToolTip": "C:\\Projetos\\FluxoCaixa\\Consolidado.Api\\readme.md",
               "RelativeToolTip": "Consolidado.Api\\readme.md",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-01-09T13:19:21.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "readme.md",
               "DocumentMoniker": "C:\\Projetos\\FluxoCaixa\\FluxoCaixa\\readme.md",
               "RelativeDocumentMoniker": "FluxoCaixa\\readme.md",
               "ToolTip": "C:\\Projetos\\FluxoCaixa\\FluxoCaixa\\readme.md",
               "RelativeToolTip": "FluxoCaixa\\readme.md",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-01-09T13:11:47.972Z",
               "EditorCaption": ""
@@ -144,8 +140,7 @@
               "RelativeToolTip": "Consolidado.Api\\Program.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAcwDUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:03:14.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T13:03:14.132Z"
             },
             {
               "$type": "Document",
@@ -157,8 +152,7 @@
               "RelativeToolTip": "Consolidado.Api\\Services\\ConsolidadorService.cs",
               "ViewState": "AgIAACcAAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:02:51.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T13:02:51.995Z"
             },
             {
               "$type": "Document",
@@ -170,8 +164,7 @@
               "RelativeToolTip": "Consolidado.Api\\Data\\ConsolidadoContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:02:23.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T13:02:23.721Z"
             },
             {
               "$type": "Document",
@@ -183,8 +176,7 @@
               "RelativeToolTip": "Consolidado.Api\\Models\\LancamentoRegistradoEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:01:43.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T13:01:43.998Z"
             },
             {
               "$type": "Document",
@@ -196,8 +188,7 @@
               "RelativeToolTip": "Consolidado.Api\\Models\\EventoProcessado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:01:18.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T13:01:18.83Z"
             },
             {
               "$type": "Document",
@@ -209,8 +200,7 @@
               "RelativeToolTip": "Consolidado.Api\\Models\\ConsolidadoDiario.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAzwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:00:54.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T13:00:54.258Z"
             },
             {
               "$type": "Document",
@@ -258,8 +248,7 @@
               "RelativeToolTip": "FluxoCaixa\\Lancamentos.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-08T15:57:23.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T15:57:23.859Z"
             },
             {
               "$type": "Document",
@@ -283,8 +272,7 @@
               "RelativeToolTip": "FluxoCaixa\\Services\\LancamentoValidatorService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T14:35:21.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T14:35:21.236Z"
             },
             {
               "$type": "Document",
